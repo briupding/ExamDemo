@@ -11,6 +11,8 @@
 		5ADB10C220CACAC7006DDD3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADB10C120CACAC7006DDD3E /* main.m */; };
 		5ADB10CF20CACC42006DDD3E /* TestExamDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADB10CE20CACC42006DDD3E /* TestExamDemo.m */; };
 		5ADB10EA20CAD07F006DDD3E /* Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADB10D520CACCCE006DDD3E /* Schedule.m */; };
+		B0153A1420DA668F00CEB2A7 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = B0153A1320DA668F00CEB2A7 /* Node.m */; };
+		B0153A1720DA6BA600CEB2A7 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = B0153A1620DA6BA600CEB2A7 /* Task.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,10 @@
 		5ADB10E820CAD06A006DDD3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5ADB10E920CAD06A006DDD3E /* Scheduler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scheduler.m; sourceTree = "<group>"; };
 		5ADB10EB20CAD509006DDD3E /* ReturnCodeKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReturnCodeKeys.h; sourceTree = "<group>"; };
+		B0153A1220DA668F00CEB2A7 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		B0153A1320DA668F00CEB2A7 /* Node.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		B0153A1520DA6BA600CEB2A7 /* Task.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		B0153A1620DA6BA600CEB2A7 /* Task.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,10 @@
 				5ADB10CE20CACC42006DDD3E /* TestExamDemo.m */,
 				5ADB10D020CACC42006DDD3E /* Info.plist */,
 				5ADB10EB20CAD509006DDD3E /* ReturnCodeKeys.h */,
+				B0153A1220DA668F00CEB2A7 /* Node.h */,
+				B0153A1320DA668F00CEB2A7 /* Node.m */,
+				B0153A1520DA6BA600CEB2A7 /* Task.h */,
+				B0153A1620DA6BA600CEB2A7 /* Task.m */,
 			);
 			path = TestExamDemo;
 			sourceTree = "<group>";
@@ -264,9 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0153A1720DA6BA600CEB2A7 /* Task.m in Sources */,
 				5A44DAF620D39E310094133C /* TaskInfo.m in Sources */,
 				5ADB10EA20CAD07F006DDD3E /* Schedule.m in Sources */,
 				5ADB10CF20CACC42006DDD3E /* TestExamDemo.m in Sources */,
+				B0153A1420DA668F00CEB2A7 /* Node.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
