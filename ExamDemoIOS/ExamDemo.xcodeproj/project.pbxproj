@@ -13,6 +13,10 @@
 		5ADB10EA20CAD07F006DDD3E /* Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADB10D520CACCCE006DDD3E /* Schedule.m */; };
 		B0153A1420DA668F00CEB2A7 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = B0153A1320DA668F00CEB2A7 /* Node.m */; };
 		B0153A1720DA6BA600CEB2A7 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = B0153A1620DA6BA600CEB2A7 /* Task.m */; };
+		B0153A1C20DB7B5500CEB2A7 /* TestScheduleTask1.m in Sources */ = {isa = PBXBuildFile; fileRef = B0153A1820DB7B5400CEB2A7 /* TestScheduleTask1.m */; };
+		B0153A1D20DB7B5500CEB2A7 /* TestScheduleTask2.m in Sources */ = {isa = PBXBuildFile; fileRef = B0153A1920DB7B5400CEB2A7 /* TestScheduleTask2.m */; };
+		B0153A1E20DB7B5500CEB2A7 /* TestScheduleTask.m in Sources */ = {isa = PBXBuildFile; fileRef = B0153A1A20DB7B5500CEB2A7 /* TestScheduleTask.m */; };
+		B0153A1F20DB7B5500CEB2A7 /* TestScheduleTask3.m in Sources */ = {isa = PBXBuildFile; fileRef = B0153A1B20DB7B5500CEB2A7 /* TestScheduleTask3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +60,10 @@
 		B0153A1320DA668F00CEB2A7 /* Node.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
 		B0153A1520DA6BA600CEB2A7 /* Task.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
 		B0153A1620DA6BA600CEB2A7 /* Task.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		B0153A1820DB7B5400CEB2A7 /* TestScheduleTask1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestScheduleTask1.m; sourceTree = "<group>"; };
+		B0153A1920DB7B5400CEB2A7 /* TestScheduleTask2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestScheduleTask2.m; sourceTree = "<group>"; };
+		B0153A1A20DB7B5500CEB2A7 /* TestScheduleTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestScheduleTask.m; sourceTree = "<group>"; };
+		B0153A1B20DB7B5500CEB2A7 /* TestScheduleTask3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestScheduleTask3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +127,10 @@
 				5ADB10D420CACCCE006DDD3E /* Schedule.h */,
 				5ADB10D520CACCCE006DDD3E /* Schedule.m */,
 				5ADB10CE20CACC42006DDD3E /* TestExamDemo.m */,
+				B0153A1A20DB7B5500CEB2A7 /* TestScheduleTask.m */,
+				B0153A1820DB7B5400CEB2A7 /* TestScheduleTask1.m */,
+				B0153A1920DB7B5400CEB2A7 /* TestScheduleTask2.m */,
+				B0153A1B20DB7B5500CEB2A7 /* TestScheduleTask3.m */,
 				5ADB10D020CACC42006DDD3E /* Info.plist */,
 				5ADB10EB20CAD509006DDD3E /* ReturnCodeKeys.h */,
 				B0153A1220DA668F00CEB2A7 /* Node.h */,
@@ -277,8 +289,12 @@
 				B0153A1720DA6BA600CEB2A7 /* Task.m in Sources */,
 				5A44DAF620D39E310094133C /* TaskInfo.m in Sources */,
 				5ADB10EA20CAD07F006DDD3E /* Schedule.m in Sources */,
+				B0153A1F20DB7B5500CEB2A7 /* TestScheduleTask3.m in Sources */,
+				B0153A1C20DB7B5500CEB2A7 /* TestScheduleTask1.m in Sources */,
 				5ADB10CF20CACC42006DDD3E /* TestExamDemo.m in Sources */,
+				B0153A1E20DB7B5500CEB2A7 /* TestScheduleTask.m in Sources */,
 				B0153A1420DA668F00CEB2A7 /* Node.m in Sources */,
+				B0153A1D20DB7B5500CEB2A7 /* TestScheduleTask2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
